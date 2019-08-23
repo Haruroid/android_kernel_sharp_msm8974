@@ -283,7 +283,7 @@ static int ext4_valid_block_bitmap(struct super_block *sb,
 	struct ext4_sb_info *sbi = EXT4_SB(sb);
 	ext4_grpblk_t offset;
 	ext4_grpblk_t next_zero_bit;
-	ext4_grpblk_t max_bit = EXT4_CLUSTERS_PER_GROUP(sb);
+	//ext4_grpblk_t max_bit = EXT4_CLUSTERS_PER_GROUP(sb);
 	ext4_fsblk_t bitmap_blk;
 	ext4_fsblk_t group_first_block;
 
